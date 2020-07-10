@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = 'utf = 8'>
+		<title>Login Form</title>
+		<link rel="stylesheet" href="style.css">
+		
+		<style type = "text/css">
+		
+			
+			@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+			
+			body {
+			
+				margin : 0;
+				padding : 0;
+				font-family : arial;
+				
+			
+			}
+			
+			.container {
+			
+				position : absolute ;
+				left:0;
+				top : 0;
+				width : 100%;
+				height : 100vh;
+				background-color : white;
+				background-size : cover;
+			
+			}
+			
+			.outer{
+			
+				position : absolute;
+				left : 0;
+				top : 0;
+				width : 100%;
+				height : 100vh;
+				background: rgba(0,0,0,0.5)
+			
+			}
+			
+			
+		
+			
+				
+				
+				.details .login-box{
+				
+					
+					width : 400px;
+					position : absolute;
+					top : 50%;
+					left : 20%;
+					transform : translate(-50%, -50%);
+					color : black;
+			
+				}
+			
+				
+			
+				.details .text-box{
+			
+					width : 100%;
+					overflow : hidden;
+					font-size : 20px;
+					padding : 8px 0;
+					margin : 8px 0;
+					border-bottom: 2px solid green;
+			
+				}
+				.details .text-box i{
+			
+					width : 26px;
+					float : left;
+					text-align : centre;
+				
+				}
+			
+				.details .text-box input{
+			
+					border : 1px solid black;
+					outline : none;
+					background : white;
+					color : black;
+					font-size : 18px;
+					width : 80%;
+					float : left;
+					margin : 0 10px;
+				
+				}
+				.details .btn{
+			
+					width : 100%;
+					background: white;
+					border : 2px solid green;
+					color : black;
+					padding: 5px;
+					font-size: 18px;
+					cursor: pointer;
+					margin: 12px 0;
+					
+				
+			
+				}
+			
+			
+			
+		</style>
+		
+	<body>
+		
+
+
+<div class = "container">
+
+	<div class = "outer">
+	
+		<div class = "details">
+		
+		
+			
+		
+			<div class = "login-box">
+				
+				
+				<div class = "text-box">
+				<i class="fa fa-calendar" aria-hidden="true"></i>
+					<input type = "date" placeholder ="Date of Birth" name = " " value = "">
+				</div>
+				
+				<div class = "text-box">
+				<i class="fa fa-male" aria-hidden="true"></i>
+					<input type = "number" placeholder ="Age" name = " " value = "">
+				</div>
+				
+				<div class = 'text-box'>
+				<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+					<p> What you have complete now :
+					
+						<select>
+							<option>10th</option>
+							<option>Intermediate</option>
+							<option>Graduation</option>
+						</select>
+					</p>
+				</div>
+				
+				<div class = 'text-box'>
+				<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+					<p> What you want :
+					
+						<select>
+							<option>Intermediate</option>
+							<option>Graduation</option>
+							<option>Post Graduation</option>
+						</select>
+					</p>
+				</div>
+				
+				
+				
+				<a href = "main.html" ><input class = "btn" type = "button" name = "" value = "Sign in"></a>
+				
+				<a href = "next.html" ><input class = "back" type = "button" name = "" value = "Back"></a>
+				
+				
+				
+	
+			</div>
+			
+		
+		</div>
+	
+	</div>
+
+</div>
+	</body>
+	
+	
+</html>
